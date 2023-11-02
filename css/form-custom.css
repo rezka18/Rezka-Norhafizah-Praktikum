@@ -1,0 +1,42 @@
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.input_padding{
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+.input_color{
+    background-color: azure;
+    color: black;
+}
+.input_focus:focus{
+    background-color: lightskyblue;
+}
+.input_icon{
+    background-color: whitesmoke;
+    background-image: url('/img/img1.jpg');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.input_animate{
+    width: 200px;
+    transition: width 0.4s ease-in-out;
+}
+.input_animate:focus{
+    width: 100%;
+}
+input[type=button], input[type=submit], input[type=reset]{
+    background-color: #608bef;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: auto;
+}
