@@ -6,7 +6,7 @@
 body{
     font-family: Arial;
     margin: 0;
-    background: #F3F0CA;
+    background: #FCF5ED;
 }
 
 /* Desain Container menjadi flexbox dan kotak login di tengah */
@@ -52,8 +52,9 @@ input[type=submit]{
 
 /* Layout , Mengatur desain header*/
 header{
-    background: #F3F0CA;
-    color: #fff;
+    background: #FCF5ED;
+    color: #555;
+    font-weight: bold;
     padding: 15px 20px;
     font-size: 20px;
 }
@@ -141,7 +142,7 @@ footer{
 }
 /* Desain tombol hapus*/
 .tombol.hapus{ 
-    background: #fc4c4c; 
+    background: #CE5A67; 
 }
 
 /* Halaman Form, Mengatur form-group agar tidak terpengaru float */
@@ -172,7 +173,7 @@ input[type=radio]{
 }
 /* Mengatur tombol reset */
 .tombol.reset{ 
-    background: #fb8307; 
+    background: #CE5A67; 
 }
 /*Membuat/menset tampilan form menumpuk pada layar kecil */
 @media (max-width: 700px) {
